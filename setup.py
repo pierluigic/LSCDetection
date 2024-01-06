@@ -27,7 +27,7 @@ setuptools.setup(
     long_description="",
     long_description_content_type="text/markdown",
     url="https://github.com/pierluigic/LSCDetection",
-    packages=['LSCDetection'],
+    packages=setuptools.find_packages(),
     platforms=['all'],
     classifiers=[
         "Programming Language :: Python :: 3",
