@@ -1,5 +1,4 @@
 import sys
-sys.path.append('./modules/')
 
 # Copyright (C) 2016-2018  Mikel Artetxe <artetxem@gmail.com>
 #
@@ -16,8 +15,8 @@ sys.path.append('./modules/')
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import embeddings
-from cupy_utils import *
+from LSCDetection.modules import embeddings
+from LSCDetection.modules.cupy_utils import *
 
 import argparse
 import collections
