@@ -17,7 +17,7 @@ try:
 except:
     reqs = [str(ir.requirement) for ir in install_reqs]
 
-
+reqs.append('docopt')
 
 setuptools.setup(
     name="LSCDetection",
