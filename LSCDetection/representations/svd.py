@@ -1,12 +1,10 @@
 import sys
-sys.path.append('./modules/')
-
 import numpy as np
 from docopt import docopt
 from sklearn.utils.extmath import randomized_svd
 import logging
 import time
-from utils_ import Space
+from LSCDetection.modules.utils_ import Space
 
 
 def main():

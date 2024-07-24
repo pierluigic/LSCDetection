@@ -1,13 +1,11 @@
 import sys
-sys.path.append('./modules/')
-
 from docopt import docopt
 import logging
 import time
 import numpy as np
 from sklearn.random_projection import sparse_random_matrix
 from scipy.sparse import csr_matrix
-from utils_ import Space
+from LSCDetection.modules.utils_ import Space
 
 
 def main():

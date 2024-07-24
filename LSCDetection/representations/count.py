@@ -1,6 +1,4 @@
 import sys
-sys.path.append('./modules/')
-
 from collections import defaultdict
 from docopt import docopt
 import logging

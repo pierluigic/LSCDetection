@@ -1,10 +1,8 @@
 import sys
-sys.path.append('./modules/')
-
 from docopt import docopt
 import logging
 import time
-from utils_ import Space
+from LSCDetection.modules.utils_ import Space
 
 
 def main():
